@@ -15,7 +15,7 @@
 
 .item1 :hover,
 .item3 :hover {
-  color: blue;
+  color: #71d6d2;
   cursor: pointer;
 }
 
@@ -42,7 +42,8 @@
 }
 
 .preferences {
-  margin-top: 50px;
+  margin-top, margin-bottom: 50px
+  margin-left,margin-right: 200px
 }
 
 .preferences > div > div {
@@ -57,13 +58,21 @@
 
 .preferences > div > div > h5{
   margin: 0;
-  font-family: 'Playfair Display',
+  font-family: 'Raleway',
     serif;
-  font-weight: 700;
-  font-size: 30px;
+    font-weight: 700;
+  font-size: 26px;
   margin-bottom: 10px;
 }
 
+.preferences > div > div > h6{
+  margin: 0;
+  font-family: 'Raleway',
+    serif;
+    font-weight: 400;
+  font-size: 20px;
+  margin-bottom: 0px;
+}
 
 .preferences img {
   /* float: right; */
@@ -107,10 +116,9 @@ td, th {
 }
 .scheduling > h5 {
   margin: 0;
-  font-family: 'Playfair Display',
+  font-family: 'Raleway',
     serif;
-  font-weight: 700;
-  font-size: 30px;
+  font-size: 25px;
   margin-bottom: 10px;
 }
 .scheduling > p {
@@ -121,6 +129,10 @@ td, th {
 .input {
   font-family: 'Playfair Display', serif;
   font-weight: 400;
+}
+
+#box {
+  border: 1px solid black;
 }
 
 /* unvisited link */
@@ -135,7 +147,7 @@ a:visited {
 
 /* mouse over link */
 a:hover {
-    color: #49b2c6;
+    color: #71d6d2;
 }
 
 a > img {
@@ -148,8 +160,8 @@ a > img {
 .switch {
   position: relative;
   display: inline-block;
-  width: 60px;
-  height: 34px;
+  width: 30px;
+  height: 17px;
 }
 
 .switch input {
@@ -173,10 +185,10 @@ a > img {
 .slider:before {
   position: absolute;
   content: "";
-  height: 26px;
-  width: 26px;
-  left: 4px;
-  bottom: 4px;
+  height: 13px;
+  width: 13px;
+  left: 2px;
+  bottom: 2px;
   background-color: white;
   -webkit-transition: .4s;
   transition: .4s;
@@ -191,18 +203,9 @@ input:focus + .slider {
 }
 
 input:checked + .slider:before {
-  -webkit-transform: translateX(26px);
-  -ms-transform: translateX(26px);
-  transform: translateX(26px);
-}
-
-/* Rounded sliders */
-.slider.round {
-  border-radius: 34px;
-}
-
-.slider.round:before {
-  border-radius: 50%;
+  -webkit-transform: translateX(30px);
+  -ms-transform: translateX(30px);
+  transform: translateX(13px);
 }
 
 /* h1, h2,  {

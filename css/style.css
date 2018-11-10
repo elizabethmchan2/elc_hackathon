@@ -1,3 +1,7 @@
+/* body { 
+    background-color: grey;
+
+} */
 .navbar {
     margin-top: 10px;
     display: flex;
@@ -38,9 +42,9 @@
 /* smaller navbar */
 
 .small_navbar {
-    margin-top: 10px
+    margin-top: 10px;
     display: block;
-    padding-top: 5px;;
+    padding-top: 5px;
     padding-bottom: auto;
     display: flex;
     width: 100%;
@@ -49,13 +53,23 @@
     
 }
 
-.itemA:hover,
-.itemB:hover,
-.itemC:hover,
-.itemD:hover { 
-        color: #6DD3C2;
-        cursor: pointer;
+.itemA h5 a,
+.itemB h5 a,
+.itemC h5 a,
+.itemD h5 a,
+.itemE h5 a {
+    text-decoration: none;
+    color: black;
 }
+
+.itemA h5 a:hover,
+.itemB h5 a:hover,
+.itemC h5 a:hover,
+.itemD h5 a:hover { 
+    color: #6DD3C2;
+    cursor: pointer;
+}
+
 .itemA h5 {
     font-family: 'Playfair Display', serif;
     font-weight: 400;
@@ -95,13 +109,34 @@
         serif;
 }
 
-#landing_image { 
-    margin: -10px;
+
+
+/* carousel */
+
+.landing_image {
+    margin: 0px;
     /* margin-top: 10px; */
     margin-bottom: 60px;
     max-width: 100%;
 
 }
+.carousel-indicators li {
+    /* position: relative; */
+    /* height: 200px; */
+    background-color: #ebeaeb;
+}
+
+.carousel-indicators .active {
+    background-color: black;
+}
+
+
+
+
+
+
+
+/* about page */
 
 .about { 
     margin-top: 20px;
@@ -127,6 +162,8 @@
 }
 
 
+/* check in walkthrough */
+
 .steps img { 
     max-width: 250px;
     max-height: 250px;
@@ -150,12 +187,22 @@
 
 
 .info { 
+    position: relative;
     display: block;
     margin-top: auto;
     margin-bottom: auto;
 
 }
+
+.info > img { 
+    position: absolute;
+    top: 4px;
+    right: 30%;
+}
+
+
 .steps > h5{
+    position: absolute;
     font-family: 'Playfair Display',
     serif;
     font-weight: 700;

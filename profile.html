@@ -2,63 +2,105 @@
 <html>
   <head>
     <title>Build Your Profile</title>
-    <link href="signup.css" rel="stylesheet">
+    <link href="css/signup.css" rel="stylesheet">
   </head>
 
   <body>
     <h1 id = "title"> Build Your Profile </h1>
+    <div id="types">
+        <form name="formName" action="what do we want the selection to do" method="POST">
+          <h3 id = "hair_title">1. Hair Type </h3>
+            <div id = "hair">
+              <p><input type="checkbox" id="curly"><label for="curly">Curly</label></p>
+              <p><input type="checkbox" id="wavy"><label for="wavy">Wavy</label></p>
+              <p><input type="checkbox" id="Straight"><label for="straight">Straight</label></p>
+           </div>
 
-    <span> Hair Type:</span>
-    <select>
-      <div class="select" style="width:200px;">
-      <option value="wavy">Wavy</option>
-      <option value="curly">Curly</option>
-      <option value="straight">Straight</option>
+           <h3>Concerns</h3>
+           <div id ="concerns">
+             <p><input type="checkbox" id="Frizziness"><label for="Frizziness">Frizziness</label></p>
+             <p><input type="checkbox" id="Volume"><label for="Volume">Volume</label></p>
+             <p><input type="checkbox" id="Greasy"><label for="Greasy">Greasy</label></p>
+             <p><input type="checkbox" id="Dry Scalp"><label for="Dry Scalp">Dry Scalp</label></p>
+             <p><input type="checkbox" id="Brittle Hair"><label for="Brittle Hair">Brittle Hair</label></p>
+             <p><input type="checkbox" id="Dyed"><label for="Dyed">Dyed</label></p>
+           </div>
+          <h3>2. Skin Type</h3>
+          <div id = "hair">
+               <p><input type="checkbox" id="Oily"><label for="Oily">Oily</label></p>
+              <p><input type="checkbox" id="Dry"><label for="Dry">Dry</label></p>
+            <p><input type="checkbox" id="Combination"><label for="Combination">Combination</label></p>
+            <p><input type="checkbox" id="Normal"><label for="Normal">Normal</label></p>
+          </div>
+         <h3>Concerns</h3>
+         <div id= "concerns">
+              <p><input type="checkbox" id="Acne"><label for="Acne">Acne</label></p>
+             <p><input type="checkbox" id="Dullness"><label for="Dullness">Dullness</label></p>
+             <p><input type="checkbox" id="Dark spots"><label for="Dark Spots">Dark Spots</label></p>
+             <p><input type="checkbox" id="Dryness"><label for="Dryness">Dryness</label></p>
+           <p><input type="checkbox" id="Hyper-pigmentation"><label for="Hyper-pigmentation">Hyper-pigmentation</label></p>
+           <p><input type="checkbox" id="Wrinkles"><label for="Wrinkles">Wrinkles</label></p>
+           <p><input type="checkbox" id="Oily"><label for="Oily">Oily</label></p>
+        </div>
+        <h3>3. Eye color</h3>
+        <div id = "hair">
+             <p><input type="checkbox" id="Brown"><label for="Brown">Brown</label></p>
+            <p><input type="checkbox" id="Hazel"><label for="Hazel">Hazel</label></p>
+            <p><input type="checkbox" id="Amber"><label for="Amber">Amber</label></p>
+          <p><input type="checkbox" id="Blue"><label for="Blue">Blue</label></p>
+          <p><input type="checkbox" id="Green"><label for="Green">Green</label></p>
+          <p><input type="checkbox" id="Grey"><label for="Grey">Grey</label></p>
+       </div>
+       <h3>4. Hair Color </h3>
+       <div id= "concerns">
+            <p><input type="checkbox" id="Black"><label for="Black">Black</label></p>
+           <p><input type="checkbox" id="Dark Brown"><label for="Dark Brown">Dark Brown</label></p>
+           <p><input type="checkbox" id="Light Brown"><label for="Light Brown">Light Brown</label></p>
+           <p><input type="checkbox" id="Sandy Blonde"><label for="Sandy Blonde">Sandy Blonde</label></p>
+         <p><input type="checkbox" id="Blonde"><label for="Blonde">Blonde</label></p>
+         <p><input type="checkbox" id="Red"><label for="Red">Red</label></p>
+         <p><input type="checkbox" id="Grey"><label for="Grey">Grey</label></p>
+         <p><input type="checkbox" id="White"><label for="White">White</label></p>
+
+      </div>
+      <h3>5. How comfortable are you with skincare?</h3>
+      <div id= "hair">
+           <p><input type="checkbox" id="Very"><label for="Very">Very</label></p>
+          <p><input type="checkbox" id="Somewhat"><label for="Somewhat">Somewhat</label></p>
+          <p><input type="checkbox" id="Rookie"><label for="Rookie">Rookie</label></p>
+     </div>
+     </div>
+     <h3>6. How comfortable are you with makeup?</h3>
+     <div id= "hair">
+          <p><input type="checkbox" id="Very"><label for="Very">Very</label></p>
+         <p><input type="checkbox" id="Somewhat"><label for="Somewhat">Somewhat</label></p>
+         <p><input type="checkbox" id="Rookie"><label for="Rookie">Rookie</label></p>
     </div>
-    </select> <br>
-    <br>
-    <span> Concerns:</span>
-    <select>
-    <option value="frizziness">Frizziness</option>
-    <option value="Volume">Volume</option>
-    <option value="Greasy">Greasy</option>
-    <option value="Dry Scalp">Dry Scalp</option>
-    </select>
-    <br>
-    <span> Skin Type:</span>
-    <select>
-    <option value="Dry">Dry</option>
-    <option value="oily">Oily</option>
-    <option value="sensitive">Sensitive</option>
-    <option value="D">D</option>
-    </select>
-    <br>
-    <span> Skin Type:</span>
-    <select>
-    <option value="Dry">Dry</option>
-    <option value="oily">Oily</option>
-    <option value="sensitive">Sensitive</option>
-    <option value="D">D</option>
-    </select>
-    <br>
-    <span> Skin Type:</span>
-    <select>
-    <option value="Dry">Dry</option>
-    <option value="oily">Oily</option>
-    <option value="sensitive">Sensitive</option>
-    <option value="D">D</option>
-    </select>
-    <br>
-    <span> Skin Type:</span>
-    <select>
-    <option value="Dry">Dry</option>
-    <option value="oily">Oily</option>
-    <option value="sensitive">Sensitive</option>
-    <option value="D">D</option>
-    </select>
-    <br>
-    <br>
-    <input type="submit" value="Submit">
-    </form>
+     <h3>7. Brands you already love</h3>
+     <div id= "concerns">
+          <p><input type="checkbox" id="Estee Lauder"><label for="Estee Lauder">Estee Lauder</label></p>
+         <p><input type="checkbox" id="La Mer"><label for="La Mer">La Mer</label></p>
+         <p><input type="checkbox" id="Clinque"><label for="Clinque">Clinque</label></p>
+         <p><input type="checkbox" id="Bobbi Brown"><label for="Bobbi Brown">Bobbi Brown</label></p>
+       <p><input type="checkbox" id="Smash Box"><label for="Smash box">Smash Box</label></p>
+       <p><input type="checkbox" id="Bumble"><label for="Bumble">Bumble</label></p>
+       <p><input type="checkbox" id="Aveda"><label for="Aveda">Aveda</label></p>
+        <p><input type="checkbox" id="Glamgow"><label for="Glambow">Glamgow</label></p>
+         <p><input type="checkbox" id="Mac"><label for="Mac">Mac</label></p>
+          <p><input type="checkbox" id="Aevin"><label for="Aevin">Aevin</label></p>
+           <p><input type="checkbox" id="Becca"><label for="Becca">Becca</label></p>
+    </div>
+   <h3>8. Membership level </h3>
+   <div id= "hair">
+        <p><input type="checkbox" id="Quarterly"><label for="Quarterly">Quarterly</label></p>
+       <p><input type="checkbox" id="Travel"><label for="Travel">Travel(4 * /year, delivered whenever requested)</label></p>
+       <p><input type="checkbox" id="Dark spots"><label for="Dark Spots">Dark Spots</label></p>
+       <p><input type="checkbox" id="Dryness"><label for="Dryness">Dryness</label></p>
+     <p><input type="checkbox" id="Hyper-pigmentation"><label for="Hyper-pigmentation">Hyper-pigmentation</label></p>
+     <p><input type="checkbox" id="Wrinkles"><label for="Wrinkles">Wrinkles</label></p>
+     <p><input type="checkbox" id="Oily"><label for="Oily">Oily</label></p>
+  </div>
+     </form>
+    </div>
   </body>
 </html>

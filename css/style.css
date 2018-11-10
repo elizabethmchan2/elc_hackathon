@@ -63,7 +63,7 @@
     display: flex;
     width: 100%;
     justify-content: center;
-    background-color: #ebeaeb
+    /* background-color: #ebeaeb */
     
 }
 
@@ -89,7 +89,7 @@
     font-weight: 400;
     /* margin-top: 20px; */
     font-size: 15px;
-    margin-right: 50px;
+    /* margin-right: 50px; */
     /* margin-left: 80px; */
 }
 
@@ -105,22 +105,33 @@
     font-family: 'Playfair Display', serif;
     font-weight: 400;
     font-size: 15px;
-    margin-left: 50px;
+    /* margin-left: 50px; */
 }
 
 .itemD h5 {
     font-family: 'Playfair Display', serif;
     font-weight: 400;
     font-size: 15px;
-    margin-left: 50px;
+    /* margin-left: 50px; */
 }
 
 .welcome {
-    margin-top: 45px;
-    margin-bottom: 25px;
+    /* margin-top: 45px; */
+    margin-bottom: 15px;
+    min-width: 20px;
+    padding-top: 10px;
+    padding-bottom: 2px;
     text-align: center;
     font-family: 'Playfair Display',
         serif;
+    background-color: black;
+    font-weight: 400;
+    color: white;
+    
+}
+
+.welcome h4 {
+    font-size: 14px;
 }
 
 

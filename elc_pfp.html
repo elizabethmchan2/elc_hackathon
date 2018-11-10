@@ -1,236 +1,281 @@
 <!DOCTYPE html>
-<html>
+  <html>
 
-<head>
-<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i|Raleway:400,400i,700,700i,900,900i" rel="stylesheet">
-  <link href="css/elc_pfp.css" rel="stylesheet">
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-    crossorigin="anonymous">
-  <!-- Calendar picker: https://stackoverflow.com/questions/44889024/display-calendar-date-picker-in-html-page -->
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i|Raleway:400,400i,700,700i,900,900i"
+      rel="stylesheet">
+    <link href="css/elc_pfp.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous">
+    <!-- Calendar picker: https://stackoverflow.com/questions/44889024/display-calendar-date-picker-in-html-page -->
     <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <link href="CSS/Master.css" rel="stylesheet" type="text/css" />
-</head>
 
-<body>
-<div class="navbar">
-  <div class="item1">
-    <h5> <span> <a id="home" href="index.html">home</a></span> </h5>
-  </div>
-  <div class="item2">
-    <h1> ELC BEAUTY ATTACHÉ </h1>
-  </div>
-  <div class="item3">
-    <h5>
-      <span> <a id="signin" href="signup.html">sign in</a></span>
-      /
-      <span> <a id="signup" href="signup.html">sign up </a> </span>
-    </h5>
-  </div>
-</div>
+  </head>
 
-<div class="small_navbar">
-  <div class="itemA">
-    <h5> <a href="about.html"> about </a> </h5>
-  </div>
-  <div class="itemB">
-    <h5> <a href="about.html"> bestsellers </a></h5>
-  </div>
-  <div class="itemC">
-    <h5> <a href="about.html"> testimonies </a> </h5>
-  </div>
-  <div class="itemD">
-    <h5> <a href="about.html"> contact </a> </h5>
-  </div>
-</div>
-
-  <h2 id = "heading">Account Info</h2><br>
-
-  <!-- preferences and photo -->
-  <div class="container preferences">
-    <div class="row justify-content-md-center">
-      <div class="col-md-5">
-        <h5>BEAUTY PROFILE</h5>
-        <p><strong>Name: </strong>Athena</p>
-        <p><strong>Eye color: </strong> Green</p>
-        <p><strong>Hair type: </strong> Wavy </p>
-        <p><strong>Hair color: </strong> Black </p>
-        <p><strong>Hair concerns: </strong> Frizziness, Brittleness </p>
-        <p><strong>Skin type: </strong> Oily </p>
-        <p><strong>Skin tone: </strong> Medium </p>
-        <p><strong>Skin concerns: </strong> Wrinkles, Dark spots</p>
-
-        <br>
-
-        <p><strong> How comfortable are you with skin care?</strong></p>
-        <p> Very </p>
-
-        <p><strong> How comfortable are you with make up?</strong></p>
-        <p> Somewhat </p>
-
-        <p><strong>Brands you already love: </strong> </p>
-        <p> La Mer, Bobbi Brown, Aveda, Origins </p>
-
-
+  <body>
+    <div class="navbar">
+      <div class="item1">
+        <h5> <span> <a id="home" href="index.html">home</a></span> </h5>
       </div>
-      <div class="col-md-5">
-        <img class = "center-block" src="images/guy.jpg" alt="profile picture">
-
-        <div class = "billing">
-          <p> <strong> Billing Information</strong> <br> xxxx xxxx xxxx 1234 <br> 10/10 </p>
-          <p> <strong> Shipping Address </strong> <br> 27-01 Queens Plaza North <br> NY, NY</p>
-          <p> <strong>Membership level</strong> <br> Luxe </p>
-        </div>
-      </br></br></br>
+      <div class="item2">
+        <h1> ELC BEAUTY ATTACHÉ </h1>
+      </div>
+      <div class="item3">
+        <h5>
+          <span> <a id="signin" href="signup.html">sign in</a></span>
+          /
+          <span> <a id="signup" href="signup.html">sign up </a> </span>
+        </h5>
       </div>
     </div>
-  </div>
-
-  <h2 id="heading">Upcoming</h2>
-
-  <div class="container preferences">
-    <div class="row justify-content-md-center">
-      <div class="col-md-7">
-        <h5>DESTINATIONS</h5>
-        <table>
-          <tr>
-            <th> HOTEL </th><th> CITY </th><th> FROM </th><th> TO </th>
-          </tr>
-          <tr>
-            <th><h6> Grand Nikko Tokyo Daiba </h6></th><th><h6> Tokyo, <i> Japan </i></h6></th><th><h6> 10/10/18 </h6></th><th><h6> 10/24/18 </h6></th>
-          </tr>
-          <tr>
-            <th><h6> Grandior Hotel Prague </h6></th><th><h6> Prague, <i> Czech Republic </i></h6></th><th><h6> 11/05/18 </h6></th><th><h6> 11/11/18 </h6></th>
-          </tr>
-          <tr>
-            <th><h6> Renaissance Sao Paulo Hotel </h6></th><th><h6> São Paulo, <i> Brazil </i></h6></th><th><h6> 12/01/18 </h6></th><th><h6> 01/06/18 </h6></th>
-          </tr>
-        </table>
-      </br>
+    <div class="small_navbar">
+      <div class="itemA">
+        <h5> <a href="about.html"> about </a> </h5>
       </div>
-      <div class="col-md-3">
-        <h5>MUST HAVES</h5>
-        <p><label class="switch">
-          <input type="checkbox" unchecked>
-          <span class="slider"></span>
-        </label> Skin care <br><br>
-        <label class="switch">
-          <input type="checkbox" unchecked>
-          <span class="slider"></span>
-        </label> Hair Care <br><br>
-        <label class="switch">
-          <input type="checkbox" unchecked>
-          <span class="slider"></span>
-        </label> Lip products <br><br>
-        <label class="switch">
-          <input type="checkbox" unchecked>
-          <span class="slider"></span>
-        </label> Eye products <br><br></p>
-      </div></br>      <div class="col-md-10">
-        <h5> SCHEDULE YOUR NEXT TRIP</h5>
-        <div class="row justify-content-md-center">
-          <div class = "scheduling">
-            <p><strong>Hotel: </strong><input class="input" type="text">
-            <strong>    City: </strong><input class="input" type="text">
-            <strong>    Date: </strong><input class="input" type="date" onclick="add to calendar" value="Start date"> to <input class="input" type="date" onclick="add to calendar" value="Start date">
-            <input class="input" type="button" onclick="add to calendar" value="Add">
-            </p>
+      <div class="itemB">
+        <h5> <a href="about.html"> bestsellers </a></h5>
+      </div>
+      <div class="itemC">
+        <h5> <a href="about.html"> testimonies </a> </h5>
+      </div>
+      <div class="itemD">
+        <h5> <a href="about.html"> contact </a> </h5>
+      </div>
+    </div>
+    <h2 id="heading">Account Info</h2>
+    <br>
+    <!-- preferences and photo -->
+    <div class="container preferences">
+      <div class="row justify-content-md-center">
+        <div class="col-md-5">
+          <h5>BEAUTY PROFILE</h5>
+          <p><strong>Name: </strong>Athena</p>
+          <p><strong>Eye color: </strong> Green</p>
+          <p><strong>Hair type: </strong> Wavy </p>
+          <p><strong>Hair color: </strong> Black </p>
+          <p><strong>Hair concerns: </strong> Frizziness, Brittleness </p>
+          <p><strong>Skin type: </strong> Oily </p>
+          <p><strong>Skin tone: </strong> Medium </p>
+          <p><strong>Skin concerns: </strong> Wrinkles, Dark spots</p>
+          <br>
+          <p><strong> How comfortable are you with skin care?</strong></p>
+          <p> Very </p>
+          <p><strong> How comfortable are you with make up?</strong></p>
+          <p> Somewhat </p>
+          <p><strong>Brands you already love: </strong> </p>
+          <p> La Mer, Bobbi Brown, Aveda, Origins </p>
+        </div>
+        <div class="col-md-5">
+          <img style = "margin-right: 50px !important" class="center-block" src="images/athena.png" alt="profile picture">
+          <div class="billing">
+            <p> <strong> Billing Information</strong> <br> xxxx xxxx xxxx 1234 <br> 10/10 </p>
+            <p> <strong> Shipping Address </strong> <br> 27-01 Queens Plaza North <br> NY, NY</p>
+            <p> <strong>Membership level</strong> <br> Luxe </p>
+          </div>
           </br></br></br>
-
-            <div id="holder"></div>
-            <div id="datepicker1"></div>
-            <script type="text/javascript">
-              $(function() {
-                $("#datepicker1").datepicker({
-                  numberOfMonths:3
+        </div>
+      </div>
+    </div>
+    <h2 id="heading">Upcoming</h2>
+    <div class="container preferences">
+      <div class="row justify-content-md-center">
+        <div class="col-md-7">
+          <h5>DESTINATIONS</h5>
+          <table>
+            <tr>
+              <th> HOTEL </th>
+              <th> CITY </th>
+              <th> FROM </th>
+              <th> TO </th>
+            </tr>
+            <tr>
+              <th>
+                <h6> Grand Nikko Tokyo Daiba </h6>
+              </th>
+              <th>
+                <h6> Tokyo, <i> Japan </i></h6>
+              </th>
+              <th>
+                <h6> 10/10/18 </h6>
+              </th>
+              <th>
+                <h6> 10/24/18 </h6>
+              </th>
+            </tr>
+            <tr>
+              <th>
+                <h6> Grandior Hotel Prague </h6>
+              </th>
+              <th>
+                <h6> Prague, <i> Czech Republic </i></h6>
+              </th>
+              <th>
+                <h6> 11/05/18 </h6>
+              </th>
+              <th>
+                <h6> 11/11/18 </h6>
+              </th>
+            </tr>
+            <tr>
+              <th>
+                <h6> Renaissance Sao Paulo Hotel </h6>
+              </th>
+              <th>
+                <h6> São Paulo, <i> Brazil </i></h6>
+              </th>
+              <th>
+                <h6> 12/01/18 </h6>
+              </th>
+              <th>
+                <h6> 01/06/18 </h6>
+              </th>
+            </tr>
+          </table>
+          </br>
+        </div>
+        <div class="col-md-3">
+          <h5>MUST HAVES</h5>
+          <p><label class="switch">
+              <input type="checkbox" unchecked>
+              <span class="slider"></span>
+            </label> Skin care <br><br>
+            <label class="switch">
+              <input type="checkbox" unchecked>
+              <span class="slider"></span>
+            </label> Hair Care <br><br>
+            <label class="switch">
+              <input type="checkbox" unchecked>
+              <span class="slider"></span>
+            </label> Lip products <br><br>
+            <label class="switch">
+              <input type="checkbox" unchecked>
+              <span class="slider"></span>
+            </label> Eye products <br><br>
+          </p>
+        </div>
+        </br>
+        <div class="col-md-10">
+          <h5> SCHEDULE YOUR NEXT TRIP</h5>
+          <div class="row justify-content-md-center">
+            <div class="scheduling">
+              <p><strong>Hotel: </strong><input class="input" type="text">
+                <strong> City: </strong><input class="input" type="text">
+                <strong> Date: </strong><input class="input" type="date" onclick="add to calendar" value="Start date"> to
+                <input class="input" type="date" onclick="add to calendar" value="Start date">
+                <input class="input" type="button" onclick="add to calendar" value="Add">
+              </p>
+              </br></br></br>
+              <div id="holder"></div>
+              <div id="datepicker1"></div>
+              <script type="text/javascript">
+                $(function () {
+                  $("#datepicker1").datepicker({
+                    numberOfMonths: 3
+                  });
                 });
-              });
-            </script>
-
+              </script>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  <h2 id="heading">Order History</h2>
-
-  <div class="container preferences">
-    <div class = "row justify-content-md-center">
-      <div class="col-md-10">
+    <h2 id="heading">Order History</h2>
+    <div class="container preferences">
+      <div class="row justify-content-md-center">
+        <div class="col-md-10">
           <table>
             <tr>
-              <th><strong> Date </strong></th><th><strong> Item </strong></th><th><strong><!-- links to products --></strong></th>
+              <th><strong> Date </strong></th>
+              <th><strong> Item </strong></th>
+              <th>
+                <strong>
+                  <!-- links to products -->
+                </strong>
+              </th>
             </tr>
             <tr>
-              <th> 06/08/18 </th><th> <a href="https://www.esteelauder.com/product/681/35204/product-catalog/skincare/nutritious-vitality8/radiant-moisture-creme"> Nutritious Vitality8™ Radiant Moisture Creme (1.7 oz.) </a> </th><th><a href="https://www.esteelauder.com/product/681/35204/product-catalog/skincare/nutritious-vitality8/radiant-moisture-creme"><img src="https://www.esteelauder.com/media/export/cms/products/558x768/el_sku_R0X101_558x768_0.jpg" alt=""></a></th>
+              <th> 06/08/18 </th>
+              <th> <a href="https://www.esteelauder.com/product/681/35204/product-catalog/skincare/nutritious-vitality8/radiant-moisture-creme">
+                  Nutritious Vitality8™ Radiant Moisture Creme (1.7 oz.) </a> </th>
+              <th><a href="https://www.esteelauder.com/product/681/35204/product-catalog/skincare/nutritious-vitality8/radiant-moisture-creme"><img
+                    src="https://www.esteelauder.com/media/export/cms/products/558x768/el_sku_R0X101_558x768_0.jpg" alt=""></a></th>
             </tr>
             <tr>
-              <th> 07/15/18 </th><th> <a href="https://www.esteelauder.com/product/643/59722/product-catalog/makeup/face/foundations/double-wear-light/soft-matte-hydra-makeup#/shade/1C0-Shell"> Double Wear Light Soft Matte Hydra Makeup </a></th><th><a href="https://www.esteelauder.com/product/643/59722/product-catalog/makeup/face/foundations/double-wear-light/soft-matte-hydra-makeup#/shade/1C0-Shell"><img src="https://www.esteelauder.com/media/export/cms/products/558x768/el_sku_P6LF15_558x768_0.jpg" alt=""></a></th>
+              <th> 07/15/18 </th>
+              <th> <a href="https://www.esteelauder.com/product/643/59722/product-catalog/makeup/face/foundations/double-wear-light/soft-matte-hydra-makeup#/shade/1C0-Shell">
+                  Double Wear Light Soft Matte Hydra Makeup </a></th>
+              <th><a href="https://www.esteelauder.com/product/643/59722/product-catalog/makeup/face/foundations/double-wear-light/soft-matte-hydra-makeup#/shade/1C0-Shell"><img
+                    src="https://www.esteelauder.com/media/export/cms/products/558x768/el_sku_P6LF15_558x768_0.jpg" alt=""></a></th>
             </tr>
             <tr>
-              <th> 09/12/18 </th><th> <a href="https://www.esteelauder.com/product/571/22853/product-catalog/fragrance/este-lauder-pleasures/eau-frache-spray"> Estée Lauder Pleasures Eau Fraîche Spray </a></th><th><a href="https://www.esteelauder.com/product/571/22853/product-catalog/fragrance/este-lauder-pleasures/eau-frache-spray"><img src="https://www.esteelauder.com/media/export/cms/products/558x768/el_sku_YGRT01_558x768_0.jpg" alt=""></a></th>
+              <th> 09/12/18 </th>
+              <th> <a href="https://www.esteelauder.com/product/571/22853/product-catalog/fragrance/este-lauder-pleasures/eau-frache-spray">
+                  Estée Lauder Pleasures Eau Fraîche Spray </a></th>
+              <th><a href="https://www.esteelauder.com/product/571/22853/product-catalog/fragrance/este-lauder-pleasures/eau-frache-spray"><img
+                    src="https://www.esteelauder.com/media/export/cms/products/558x768/el_sku_YGRT01_558x768_0.jpg" alt=""></a></th>
             </tr>
           </table>
-        </br></br></br>
+          </br></br></br>
+        </div>
       </div>
     </div>
-  </div>
-
-</div>
-  <!-- upcoming  -->
-
-  <!--
-         <div>
-            /*--- multiple image carousel:https://codepen.io/katielee/pen/ooJZVZ---*/
-            <div class="container">
-               <h2>Schedule your next trip!</h2>
-               <div class="row">
-                  <div class="col-md-12 heroSlider-fixed">
-                     <div class="overlay"></div>
-                     <div class="slider responsive">
-                        <div>
-                           <img src="http://placehold.it/200x150" alt="" />
-                        </div>
-                        <div>
-                           <img src="http://placehold.it/200x150" alt="" />
-                        </div>
-                     </div>
-                     <div>
-                        <img src="http://placehold.it/200x150" alt="" />
-                     </div>
-                     <div>
-                        <img src="http://placehold.it/200x150" alt="" />
-                     </div>
-
-                     <div class="prev">
-                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                     </div>
-                     <div class="next">
-                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <div>
-            <h2>Order History</h2>
-            /*--- multiple image carousel ---*/
-         </div>
-
-
-         -->
-  <script src="elc_pfp.js"></script>
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-    crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-    crossorigin="anonymous"></script>
-</body>
+    </div>
+    <!-- upcoming  -->
+    <!--
+          <div>
+              /*--- multiple image carousel:https://codepen.io/katielee/pen/ooJZVZ---*/
+              <div class="container">
+                <h2>Schedule your next trip!</h2>
+                <div class="row">
+                    <div class="col-md-12 heroSlider-fixed">
+                      <div class="overlay"></div>
+                      <div class="slider responsive">
+                          <div>
+                            <img src="http://placehold.it/200x150" alt="" />
+                          </div>
+                          <div>
+                            <img src="http://placehold.it/200x150" alt="" />
+                          </div>
+                      </div>
+                      <div>
+                          <img src="http://placehold.it/200x150" alt="" />
+                      </div>
+                      <div>
+                          <img src="http://placehold.it/200x150" alt="" />
+                      </div>
+          
+                      <div class="prev">
+                          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                      </div>
+                      <div class="next">
+                          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                      </div>
+                    </div>
+                </div>
+              </div>
+          </div>
+          <div>
+              <h2>Order History</h2>
+              /*--- multiple image carousel ---*/
+          </div>
+          
+          
+          -->
+    <script src="elc_pfp.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"></script>
+  </body>
 
 </html>

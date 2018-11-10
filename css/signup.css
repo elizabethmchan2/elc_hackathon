@@ -1,7 +1,15 @@
 /* .class
 #id */
 
+.container { 
+  text-align: center;
+  background-color: aliceblue;
+  margin-left: 250px;
+  margin-right: 250px;
+  /* width: 400px; */
+  /* height: 100px; */
 
+}
 #title {
   color: blue;
   text-align: center;

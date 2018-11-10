@@ -1,6 +1,10 @@
 /* .class
 #id */
 
+/* #types p { 
+  cursor: pointer;
+} */
+
 
 #title {
   /* color: blue; */
@@ -87,7 +91,7 @@ margin-left: 200px;
 }
 .item {
   flex-grow: <number>; /* default 0 */
-}
+/* } */
 /* .signup {
   text-align: center;
 } */

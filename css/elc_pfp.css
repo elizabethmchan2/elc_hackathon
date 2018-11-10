@@ -1,29 +1,115 @@
-h1 {
-  color: black;
-  text-align: center;
-  font-family: 'Playfair Display', serif;
+.navbar {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
 }
 
-h2 {
+
+.item1 h5 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  /* margin-top: 20px; */
+  font-size: 15px;
+  margin-left: 80px;
+}
+
+.item1 :hover,
+.item3 :hover {
+  color: blue;
+  cursor: pointer;
+}
+
+.item2 h1 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  font-size: 40px;
+  margin-left: 65px;
+
+}
+
+.item3 h5 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  font-size: 15px;
+  margin-right: 80px;
+}
+
+#heading {
+  text-align: center;
+  font-family: 'Playfair Display',
+    serif;
+  font-weight: 700;
+}
+
+.preferences { 
+  margin-top: 50px;
+}
+
+.preferences > div > div { 
+  margin-left: 10px;
+}
+.preferences > div > div > p { 
+  margin: 0; 
+  font-family: 'Playfair Display',
+    serif;
+  font-weight: 400;
+}
+
+.preferences > div > div > h5{
+  margin: 0;
+  font-family: 'Playfair Display',
+    serif;
+  font-weight: 700;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+
+.preferences img { 
+  /* float: right; */ 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-height: 200px; 
+  margin-left: 80px;
+  margin-bottom: 30px;
+
+}
+
+.billing { 
+  margin-left: 110px;
+  max-width: 200px;
+  padding-left: 10px;
+  
+  /* outline: grey solid 1px; */
+}
+.billing > p { 
+  font-family: 'Playfair Display',
+  serif;
+}
+
+
+/* h1, h2,  {
   color: black;
   text-align: center;
   font-family: 'Playfair Display', serif;
-  font-size: ;
 }
 
 p {
   color: black;
   text-align: left;
   font-family: 'Optima', sans-serif;
-}
-
+} */
+/* 
 div {
   color: lightblue;
   padding-top: 50px;
   padding-right: 50px;
   padding-bottom: 50px;
   padding-left: 50px;
-}
+} */
+/* 
+
 <script type="text/javascript" src="filename.js" >
 .slick-dots {
 	text-align: center;
@@ -55,7 +141,7 @@ div {
 }
 
 /* Custom Arrow */
-.prev{
+/* .prev{
 	color: #999;
 	position: absolute;
 	top: 38%;
@@ -82,5 +168,5 @@ div {
     .next {
         display: none !important;
     }
-}
-</script>
+} */
+

@@ -1,24 +1,49 @@
 /* .class
 #id */
 
-.container { 
-  text-align: center;
-  background-color: aliceblue;
-  margin-left: 250px;
-  margin-right: 250px;
-  /* width: 400px; */
-  /* height: 100px; */
-
-}
 #title {
   color: blue;
   text-align: center;
 }
 
 
-.signup {
-  text-align: center;
+#hair_title {
+  margin: 0;
+}
+#hair {
+  display: flex;
 }
 
-#questions {width: 100%; margin: 0 auto;} /*this margin is to center the div automatically, just in case*/
-.left_options, .right_optiones {width: 45%; float: left;}
+#hair p {
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+#concerns {
+  display: flex;
+}
+#concerns p {
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.container {
+  display: grid;
+  grid-row-gap: 50px;
+}
+
+
+/* .signup {
+  text-align: center;
+} */
+
+/* #types {
+  width: 100%; margin: 0 auto;
+} */
+/*
+#types h3 {
+  text-align: left;
+}
+
+.left, .right {width: 45%; float: left;} */

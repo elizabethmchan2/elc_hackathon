@@ -41,6 +41,14 @@
   font-weight: 700;
 }
 
+#footer_bar {
+  text-align: center;
+  font-family: 'Raleway',
+    serif;
+  font-weight: 400;
+  background-color: #3d3d3d; 
+}
+
 .preferences {
   margin-top, margin-bottom: 50px
   margin-left,margin-right: 200px

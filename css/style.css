@@ -28,8 +28,8 @@
 .item2 h1 {
     font-family: 'Playfair Display', serif;
     font-weight: 700;
-    font-size: 40px;
-    margin-left: 70px;
+    font-size: 50px;
+    margin-left: 100px;
 
 }
 
@@ -183,7 +183,7 @@
 /* check in walkthrough */
 
 .check_in img { 
-    height: 100vh;
+    height: 200vh;
 }
 
 

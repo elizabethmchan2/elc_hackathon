@@ -1,29 +1,74 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title> Sign Up</title>
-    <link href="signup.css" rel="stylesheet">
-  </head>
-
-  <body>
-    <h1 id = "title"> SIGN UP </h1>
-    <fieldset>
-    <form class = "signup">
-      <span id = "firstName"> First name: </span><br>
-      <input type="text" placeholder="Enter first name"><br>
-      <span> Last name:</span><br>
-      <input type="text" placeholder="Enter second name"><br>
-      <span> Email Address:</span><br>
-      <input type="text" placeholder="Enter your email"><br>
-      <span> Password (9 or more characters):</span><br>
-      <input type="text" placeholder="Password">
-      <div id="lower">
-      <input type="checkbox"><label for="checkbox">Keep me logged in</label><br>
-      <br>
-      <form action="profile.html">
-      <input type="submit" value="Join Now">
-      </form>
-    </form>
-  </fieldset>
-  </body>
+   <head>
+      <title> Sign Up</title>
+      <link href="css/signup.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <!-- Custom styles for this template -->
+      <link href="css/style.css" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i" rel="stylesheet">
+   </head>
+   <body>
+      <div class="navbar">
+         <div class = "item1">
+            <h5> about </h5>
+         </div>
+         <!-- <div class = "" -->
+         <div class = "item2">
+            <h1> ELC BEAUTY ATTACHÉ </h1>
+         </div>
+         <div class = "item3">
+            <h5> sign in / sign up </h5>
+         </div>
+      </div>
+      <div class="small_navbar">
+         <div class="itemA">
+            <h5> about </h5>
+         </div>
+         <div class="itemB">
+            <h5> bestsellers</h5>
+         </div>
+         <div class="itemC">
+            <h5> testimonies </h5>
+         </div>
+         <div class="itemD">
+            <h5> contact </h5>
+         </div>
+      </div>
+      <div class= "container">
+         <div class = "row">
+            <div class = "col-md-4">
+               <img id = "sign_up_image" src="images/test_landing.jpeg" alt="landing">
+            </div>
+            <div class = "col-md-4" style = "margin-left: 300px;">
+               <br>
+               <br>
+               <h2 id = "title" style= "font-family: Playfair Display, serif;"> SIGN UP</h2>
+               <fieldset>
+                  <form class = "signup">
+                     <span id = "firstName" style= "font-family: Playfair Display, serif; font-weight: 400;" >
+                    First name:
+                  </span><br>
+                     <input type="text" style= "font-family: Playfair Display, serif; font-weight: 400; font-size: 15px;" placeholder="Enter first name"><br>
+                     <span style= "font-family: Playfair Display, serif; font-weight: 400;"> Last name:</span><br>
+                     <input type="text" style= "font-family: Playfair Display, serif; font-weight: 400;" placeholder="Enter second name"><br>
+                     <span style= "font-family: Playfair Display, serif; font-weight: 400;"> Email Address:</span><br>
+                     <input type="text" style= "font-family: Playfair Display, serif; font-weight: 400;" placeholder="Enter your email"><br>
+                     <span style= "font-family: Playfair Display, serif; font-weight: 400;"> Password (9 or more characters):</span><br>
+                     <input type="text" style= "font-family: Playfair Display, serif; font-weight: 400;" placeholder="Password">
+                     <div id="lower">
+                        <input type="checkbox"><label for="checkbox" style= "font-family: Playfair Display, serif; font-weight: 400;">Keep me logged in</label><br>
+                        <br>
+                  <form action="profile.html">
+                  <input type="submit" style= "font-family: Playfair Display, serif; font-weight: 400;" value="Join Now">
+                  </form>
+                  </form>
+               </fieldset>
+               </div>
+            </div>
+         </div>
+      </div>
+      </div>
+      </div>
+   </body>
 </html>

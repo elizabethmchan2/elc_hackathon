@@ -12,11 +12,15 @@
 }
 #hair {
   display: flex;
+
 }
 
+#concerns {
+    justify-content: space-around;
+}
 #hair p {
   flex-direction: row;
-  justify-content: flex-start;
+
 }
 
 #concerns {
@@ -33,7 +37,12 @@
   grid-row-gap: 50px;
 }
 
-
+.item{
+  order : <integer>;
+}
+.item {
+  flex-grow: <number>; /* default 0 */
+}
 /* .signup {
   text-align: center;
 } */

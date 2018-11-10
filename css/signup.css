@@ -1,7 +1,7 @@
 /* .class
 #id */
 
-/* #types p { 
+/* #types p {
   cursor: pointer;
 } */
 
@@ -23,7 +23,7 @@ font-size: 15px;
 /* margin-right: 50px; */
 /* margin-left: 80px; */
 /* margin-top: 20px; */
-/* margin-left: 200px; */
+margin-left: 200px;
 /* margin-right: 300px; */
 }
 
@@ -70,7 +70,7 @@ font-size: 15px;
   /* justify-content: space-evenly; */
 }
 
-#t3 img {
+#t1 img {
   max-width: 70px;
   max-height: 70px;
 }
@@ -105,11 +105,6 @@ font-size: 15px;
 }
 .item {
   flex-grow: <number>; /* default 0 */
-<<<<<<< HEAD
-
-=======
-/* } */
->>>>>>> 37e1e0221c4f20200d6014078887b659ce3b4792
 /* .signup {
   text-align: center;
 } */

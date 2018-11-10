@@ -1,37 +1,3 @@
-//$(document).ready(function () {
-//
-//    $("#classpresidentsstuff").hide();
-//    $("#electionstuff").hide();
-//    $("#membersstuff").hide();
-//    $("#dormpresidentsstuff").hide();
-//
-//    $("#classpresidents").click(function () {
-//        $("#classpresidentsstuff").toggle();
-//    });
-//
-//    $("#election").click(function () {
-//        $("#electionstuff").toggle();
-//    });
-//    $("#members").click(function () {
-//        $("#membersstuff").toggle();
-//    });
-//    $("#dormpresidents").click(function () {
-//        $("#dormpresidentsstuff").toggle();
-//    });
-//});
-
-
-// for (var i = 0; i < toggleCircles.length; i++) {
-//     $('.toggleCircles').click(function () {
-//         $('#navCol').slideToggle(400);
-//         $('#main').toggleClass('mainLarge');
-//         $('body').toggleClass('backgroundOffset');
-//         return false;
-//     });
-// }
-
-// var toggleItems = document.getElementsByClassName("toggle-items")
-
 var eyeBrown = document.getElementById("Brown")
 var eyeHazel= document.getElementById("Hazel")
 var eyeAmber = document.getElementById("Amber")

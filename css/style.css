@@ -1,4 +1,5 @@
 .navbar {
+    margin-top: 10px;
     display: flex;
     width: 100%;
     justify-content: space-between;
@@ -14,15 +15,15 @@
 }
 
 .item1 :hover, .item3 :hover { 
-    color: blue;
+    color: #6DD3C2;
     cursor: pointer;
 }
 
 .item2 h1 {
     font-family: 'Playfair Display', serif;
-    font-weight: 400;
+    font-weight: 700;
     font-size: 40px;
-    margin-left: 65px;
+    margin-left: 70px;
 
 }
 
@@ -30,35 +31,92 @@
     font-family: 'Playfair Display', serif;
     font-weight: 400;
     font-size: 15px;
-    margin-right: 80px;
+    margin-right: 95px;
 }
 
 
+/* smaller navbar */
+
+.small_navbar {
+    margin-top: 10px
+    display: block;
+    padding-top: 5px;;
+    padding-bottom: auto;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: #ebeaeb
+    
+}
+
+.itemA:hover,
+.itemB:hover,
+.itemC:hover,
+.itemD:hover { 
+        color: #6DD3C2;
+        cursor: pointer;
+}
+.itemA h5 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    /* margin-top: 20px; */
+    font-size: 15px;
+    margin-right: 50px;
+    /* margin-left: 80px; */
+}
+
+.itemB h5 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 15px;
+    /* margin-left: 70px; */
+
+}
+
+.itemC h5 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 15px;
+    margin-left: 50px;
+}
+
+.itemD h5 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 15px;
+    margin-left: 50px;
+}
+
 .welcome {
-    margin-top: 25px;
+    margin-top: 45px;
+    margin-bottom: 25px;
     text-align: center;
     font-family: 'Playfair Display',
         serif;
 }
 
-
 #landing_image { 
-    margin-top: 40px;
+    margin: -10px;
+    /* margin-top: 10px; */
     margin-bottom: 60px;
+    max-width: 100%;
+
 }
 
 .about { 
-    margin-left: 80px;
-    margin-right: 80px;
+    margin-top: 20px;
+    margin-left: 300px;
+    margin-right: 300px;
 }
 .about h1 { 
 
-    text-align:  left; 
+    text-align:  center; 
     font-family: 'Playfair Display',
         serif;
     font-weight: bold;
     font-style: 900i;
     font-size: 30px;
+    font-style: italic;
 
 }
 
@@ -74,3 +132,40 @@
     max-height: 250px;
 
 }
+
+
+.check_in_header {
+    margin-top: 60px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-family: 'Playfair Display',
+        serif;
+    font-weight: bold;
+    font-style: italic;
+    font-style: 900;
+    font-size: 30px;
+
+}
+
+
+
+.info { 
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+.steps > h5{
+    font-family: 'Playfair Display',
+    serif;
+    font-weight: 700;
+
+}
+
+.steps > p{ 
+    font-family: 'Playfair Display',
+    serif;
+    font-weight: 400;
+}
+
+

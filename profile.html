@@ -10,199 +10,203 @@
       <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i" rel="stylesheet">
    </head>
    <body>
-
-      <div class="navbar">
-         <div class="item1">
-            <h5> <span> <a id="home" href="index.html">home</a></span> </h5>
-         </div>
-         <div class="item2">
-            <h1> ELC BEAUTY ATTACHÉ </h1>
-         </div>
-         <div class="item3">
-            <h5>
-               <span> <a id="signin" href="signup.html">sign in</a></span>
-               /
-               <span> <a id="signup" href="signup.html">sign up </a> </span>
-            </h5>
-         </div>
+         <div class="navbar">
+      <div class="item1">
+        <h5> <span> <a id="home" href="index.html">home</a></span> </h5>
       </div>
+      <div class = "item2"> <h1> ELC BEAUTY ATTACHÉ </h1> </div>
+      <div class="item3">
+      <h5>
+        <span> <a id="signin" href="signup.html">sign in</a></span>
+        /
+        <span> <a id="signup" href="signup.html">sign up </a> </span>
+      </h5>
+      </div>
+    </div>
 
       <div class="small_navbar">
          <div class="itemA">
-            <h5> <a href = "about.html"> about </a> </h5>
+            <h5> about </h5>
          </div>
          <div class="itemB">
-            <h5> <a href="about.html"> bestsellers </a></h5>
+            <h5> bestsellers</h5>
          </div>
          <div class="itemC">
-            <h5> <a href="about.html"> testimonies </a> </h5>
+            <h5> testimonies </h5>
          </div>
          <div class="itemD">
-            <h5> <a href="about.html"> contact </a> </h5>
+            <h5> contact </h5>
          </div>
       </div>
-      
       <h1 id = "title"> Build Your Profile </h1>
-      <div id="types" >
-         <form name="formName" action="what do we want the selection to do" method="POST">
-            <h3>1. Eye color</h3>
-            <div class = "container">
-               <div class = "row justify-content-center">
-                  <div class = "col-md-3">
-                     <p><input type="hidden" class = "toggle-circles" ><label for="Brown"> <span id="Brown" style = "background-color: #2b1d0e" class = "circle"></span></label></p>
-                     <p><input type="hidden" class = "toggle-circles" ><label for="Hazel"> <span id="Hazel"style = "background-color: #776536" class = "circle"></span></label></p>
-                  </div>
-                  <div class = "col-md-3">
-                     <p><input type="hidden" class = "toggle-circles" ><label for="Blue"> <span id="Blue"style = "background-color:#a1caf1" class = "circle"></span></label></p>
-                     <p><input type="hidden" class = "toggle-circles" ><label for="Green"> <span id="Green"style = "background-color: #4A7023" class = "circle"></span></label></p>
-                  </div>
+      <div id="types">
+      <form name="formName" action="what do we want the selection to do" method="POST">
+         <h3>1. Eye color</h3>
+         <div class = "container">
+            <div class = "row justify-content-center">
+               <div class = "col-md-3">
+                  <p><input type="hidden" class = "toggle-circles" ><label for="Brown"> <span id="Brown" style = "background-color: #2b1d0e" class = "circle"></span></label></p>
+                  <p><input type="hidden" class = "toggle-circles" ><label for="Hazel"> <span id="Hazel"style = "background-color: #776536" class = "circle"></span></label></p>
+
+               </div>
+               <div class = "col-md-3">
+                  <p><input type="hidden" class = "toggle-circles" ><label for="Blue"> <span id="Blue"style = "background-color:#a1caf1" class = "circle"></span></label></p>
+                  <p><input type="hidden" class = "toggle-circles" ><label for="Green"> <span id="Green"style = "background-color: #4A7023" class = "circle"></span></label></p>
+
+               </div>
+
+         </div>
+       </div>
+         <h3 id = "hair_title">2. Hair Type </h3>
+         <div class = "container">
+           <div class = "row justify-content-center">
+              <div class = "col-md-3">
+                 <p><input type="hidden" class = "toggle-items" ><label for="curly"><span id="curly">Curly</span></label></p>
+                 <p><input type="hidden" class = "toggle-items" ><label for="wavy"><span id="wavy">Wavy</span></label></p>
+              </div>
+              <div class = "col-md-3">
+                 <p><input type="hidden" class = "toggle-items" ><label for="straight"><span id="straight"> Straight</span> </label></p>
+           </div>
+         </div>
+       </div>
+
+         <h3>3. Hair Color </h3>
+         <div class = "container">
+           <div class = "row justify-content-center">
+              <div class = "col-md-3">
+                 <p><input type="hidden" ><label for="Black"><span id="Black" style= "background-color:#000000" class = "circle"></span></label></p>
+                 <p><input type="hidden" ><label for="Dark Brown"><span id="Dark Brown" style = "background-color:#8B4513"  class = "circle"></span></label></p>
+                 <p><input type="hidden" ><label for="Light Brown"><span id="Light Brown" style = "background-color:#CD853F" class = "circle"></span></label></p>
+                 <p><input type="hidden" ><label for="Sandy Blonde"><span id="Sandy Blonde" style = "background-color: #D7BF91" class = "circle"></span></label></p>
+              </div>
+              <div class = "col-md-3">
+                 <p><input type="hidden" ><label for="Blonde"><span id="Blonde" style = "background-color: #faf0be"class = "circle"></span></label></p>
+                 <p><input type="hidden" ><label for="Red"><span id="Red" style = "background-color: #ff0000 " class = "circle"></span></label></p>
+                 <p><input type="hidden" ><label for="Grey"><span id="Grey" style = "background-color: #A9A9A9" class = "circle"></span></label></p>
+                 <p><input type="hidden" ><label for="White"><span  id="White" style = "background-color: #D3D3D3" class = "circle"></span></label></p>
+              </div>
+           </div>
+         </div>
+
+         <h3> Hair Concerns</h3>
+
+         <div class = "container">
+         <div class = "row justify-content-center">
+            <div class = "col-md-3">
+               <p><input type="hidden" ><label for="Frizziness"><span id="Frizziness"> Frizziness</span> </label></p>
+               <p><input type="hidden"><label for="Volume"><span id="Volume"> Volume</span></label></p>
+               <p><input type="hidden"><label for="Greasy"><span id="Greasy"> Greasy</span></label></p>
+            </div>
+            <div class = "col-md-3">
+               <p><input type="hidden"><label for="Dry Scalp"><span id="Dry Scalp"> Dry Scalp</span></label></p>
+               <p><input type="hidden" ><label for="Brittle Hair"><span id="Brittle Hair"> Brittle Hair</span></label></p>
+               <p><input type="hidden"><label for="Dyed"><span id="Dyed"> Dyed</span></label></p>
+            </div>
+         </div>
+       </div>
+         <h3>4. Skin Type</h3>
+         <div class = "container">
+            <div class = "row justify-content-center">
+               <div class = "col-md-3">
+                  <p><input type="hidden" ><label for="Oily"><span id = "Oily">Oily</span></label></p>
+                  <p><input type="hidden" ><label for="Dry"><span id = "Dry">Dry</span></label></p>
+               </div>
+               <div class = "col-md-3">
+                  <p><input type="hidden" ><label for="Combination"><span id = "Combination">Combination</span></label></p>
+                  <p><input type="hidden" ><label for="Normal"><span id = "Normal">Normaly</span></label></p>
                </div>
             </div>
-            <h3 id = "hair_title">2. Hair Type </h3>
-            <div class = "container">
-               <div class = "row justify-content-center">
-                  <div class = "col-md-3">
-                     <p><input type="hidden" class = "toggle-items" ><label for="curly"><span id="curly">Curly</span></label></p>
-                     <p><input type="hidden" class = "toggle-items" ><label for="wavy"><span id="wavy">Wavy</span></label></p>
-                  </div>
-                  <div class = "col-md-3">
-                     <p><input type="hidden" class = "toggle-items" ><label for="straight"><span id="straight"> Straight</span> </label></p>
-                  </div>
-               </div>
+         </div>
+         <h3>Skin Concerns</h3>
+         <div class = "container">
+         <div class = "row justify-content-center">
+            <div class = "col-md-3">
+               <p><input type="hidden" ><label for="Acne"><span id = "Acne">Acne</span></label></p>
+               <p><input type="hidden" ><label for="Dullness"><span id = "Dullness">Dullness</span></label></p>
+               <p><input type="hidden"><label for="Dark Spots"><span id = "Dark Spots">Dark Spots</span></label></p>
+               <p><input type="hidden" ><label for="Dryness"><span id = "Dryness">Dryness</span></label></p>
             </div>
-            <h3>3. Hair Color </h3>
-            <div class = "container">
-               <div class = "row justify-content-center">
-                  <div class = "col-md-3">
-                     <p><input type="hidden" ><label for="Black"><span id="Black" style= "background-color:#000000" class = "circle"></span></label></p>
-                     <p><input type="hidden" ><label for="Dark Brown"><span id="Dark Brown" style = "background-color:#8B4513"  class = "circle"></span></label></p>
-                     <p><input type="hidden" ><label for="Light Brown"><span id="Light Brown" style = "background-color:#CD853F" class = "circle"></span></label></p>
-                     <p><input type="hidden" ><label for="Sandy Blonde"><span id="Sandy Blonde" style = "background-color: #D7BF91" class = "circle"></span></label></p>
-                  </div>
-                  <div class = "col-md-3">
-                     <p><input type="hidden" ><label for="Blonde"><span id="Blonde" style = "background-color: #faf0be"class = "circle"></span></label></p>
-                     <p><input type="hidden" ><label for="Red"><span id="Red" style = "background-color: #ff0000 " class = "circle"></span></label></p>
-                     <p><input type="hidden" ><label for="Grey"><span id="Grey" style = "background-color: #A9A9A9" class = "circle"></span></label></p>
-                     <p><input type="hidden" ><label for="White"><span  id="White" style = "background-color: #D3D3D3" class = "circle"></span></label></p>
-                  </div>
-               </div>
+            <div class = "col-md-3">
+               <p><input type="hidden" ><label for="Hyper-pigmentation"><span id = "Hyper">Hyper-pigmentation</span></label></p>
+               <p><input type="hidden" ><label for="Wrinkles"><span id = "Wrinkles">Wrinkles</span></label></p>
+               <p><input type="hidden" ><label for="Oily"><span id = "Excess Oil">Excess</span></label></p>
             </div>
-            <h3> Hair Concerns</h3>
-            <div class = "container">
-               <div class = "row justify-content-center">
-                  <div class = "col-md-3">
-                     <p><input type="hidden" ><label for="Frizziness"><span id="Frizziness"> Frizziness</span> </label></p>
-                     <p><input type="hidden"><label for="Volume"><span id="Volume"> Volume</span></label></p>
-                     <p><input type="hidden"><label for="Greasy"><span id="Greasy"> Greasy</span></label></p>
-                  </div>
-                  <div class = "col-md-3">
-                     <p><input type="hidden"><label for="Dry Scalp"><span id="Dry Scalp"> Dry Scalp</span></label></p>
-                     <p><input type="hidden" ><label for="Brittle Hair"><span id="Brittle Hair"> Brittle Hair</span></label></p>
-                     <p><input type="hidden"><label for="Dyed"><span id="Dyed"> Dyed</span></label></p>
-                  </div>
-               </div>
+         </div>
+       </div>
+         <h3>5. How comfortable are you with skincare?</h3>
+         <div class = "container">
+         <div class = "row justify-content-center">
+            <div class = "col-md-3">
+               <p><input type="hidden" ><label for="Very"><span id = "very"> Very </span> </label></p>
+               <p><input type="hidden" ><label for="Somewhat"><span id = "somewhat"> Somewhat </span></label></p>
             </div>
-            <h3>4. Skin Type</h3>
-            <div class = "container">
-               <div class = "row justify-content-center">
-                  <div class = "col-md-3">
-                     <p><input type="hidden" ><label for="Oily"><span id = "Oily">Oily</span></label></p>
-                     <p><input type="hidden" ><label for="Dry"><span id = "Dry">Dry</span></label></p>
-                  </div>
-                  <div class = "col-md-3">
-                     <p><input type="hidden" ><label for="Combination"><span id = "Combination">Combination</span></label></p>
-                     <p><input type="hidden" ><label for="Normal"><span id = "Normal">Normaly</span></label></p>
-                  </div>
-               </div>
+            <div class = "col-md-3">
+               <p><input type="hidden" ><label for="Rookie"><span id = "rookie"> rookie </span></label></p>
             </div>
-            <h3>Skin Concerns</h3>
-            <div class = "container">
-               <div class = "row justify-content-center">
-                  <div class = "col-md-3">
-                     <p><input type="hidden" ><label for="Acne"><span id = "Acne">Acne</span></label></p>
-                     <p><input type="hidden" ><label for="Dullness"><span id = "Dullness">Dullness</span></label></p>
-                     <p><input type="hidden"><label for="Dark Spots"><span id = "Dark Spots">Dark Spots</span></label></p>
-                     <p><input type="hidden" ><label for="Dryness"><span id = "Dryness">Dryness</span></label></p>
-                  </div>
-                  <div class = "col-md-3">
-                     <p><input type="hidden" ><label for="Hyper-pigmentation"><span id = "Hyper">Hyper-pigmentation</span></label></p>
-                     <p><input type="hidden" ><label for="Wrinkles"><span id = "Wrinkles">Wrinkles</span></label></p>
-                     <p><input type="hidden" ><label for="Oily"><span id = "Excess Oil">Excess</span></label></p>
-                  </div>
-               </div>
+         </div>
+       </div>
+         <h3>6. How comfortable are you with makeup?</h3>
+         <div class = "container">
+         <div class = "row justify-content-center">
+            <div class = "col-md-3">
+               <p><input type="hidden" ><label for="Very"><span id = "Mvery"> Very </span> </label></p>
+               <p><input type="hidden" ><label for="Somewhat"><span id = "Msomewhat"> Somewhat </span></label></p>
             </div>
-            <h3>5. How comfortable are you with skincare?</h3>
+            <div class = "col-md-3">
+               <p><input type="hidden" ><label for="Rookie"><span id = "Mrookie"> rookie </span></label></p>
+         </div>
+       </div>
+         <h3>7. Brands you already love</h3>
+         <div id= "t1">
             <div class = "container">
-               <div class = "row justify-content-center">
+               <div class = "row justify-content-md-center">
                   <div class = "col-md-3">
-                     <p><input type="hidden" ><label for="Very"><span id = "very"> Very </span> </label></p>
-                     <p><input type="hidden" ><label for="Somewhat"><span id = "somewhat"> Somewhat </span></label></p>
+                     <p><input type="hidden" ><label for="Estée Lauder"><img id="Estée Lauder"src="profile_images/ELC.png" alt="Estée Lauder"></label></p>
+                     <p><input type="hidden" ><label for="La Mer"><img id="La Mersrc" src = "profile_images/La_Mer.png" alt="La Mer"></label></p>
+                     <p><input type="hidden" ><label for="Clinique"><img id="Clinique" src="profile_images/Clinique.jpg" alt="Clinique"></label></p>
+                     <p><input type="hidden" ><label for="Bobbi Brown"><img id="Bobbi Brown"src="profile_images/Bobbi.png" alt="Bobbi Brown"></label></p>
+                     <p><input type="hidden" ><label for="Smash box"><img id="Smash Box"src="profile_images/smash.png" alt="Smash Box"></label></p>
+                     <p><input type="hidden" ><label for="Bumble"><img id="Bumble"src="profile_images/Bumble.png" alt="Bumble and Bumble"></label></p>
                   </div>
                   <div class = "col-md-3">
-                     <p><input type="hidden" ><label for="Rookie"><span id = "rookie"> rookie </span></label></p>
+                     <p><input type="hidden" ><label for="Aveda"><img id="Aveda"src="profile_images/Aveda-logo.png" alt="Aveda"></label></p>
+                     <p><input type="hidden" ><label for="Glambow"><img id="Glamgow"src="profile_images/glamgow.png" alt="Glamgow"></label></p>
+                     <p><input type="hidden" ><label for="Mac"><img id="Mac"src="profile_images/mac.jpg" alt="Mac"></label></p>
+                     <p><input type="hidden" ><label for="Aevin"><img id="Aevin"src="profile_images/aerin.png" alt="Aerin"></label></p>
+                     <p><input type="hidden" ><label for="Becca"><img id="Becca"src="profile_images/becca.png" alt="Becca"></label></p>
                   </div>
                </div>
-            </div>
-            <h3>6. How comfortable are you with makeup?</h3>
-            <div class = "container">
-               <div class = "row justify-content-center">
-                  <div class = "col-md-3">
-                     <p><input type="hidden" ><label for="Very"><span id = "Mvery"> Very </span> </label></p>
-                     <p><input type="hidden" ><label for="Somewhat"><span id = "Msomewhat"> Somewhat </span></label></p>
-                  </div>
-                  <div class = "col-md-3">
-                     <p><input type="hidden" ><label for="Rookie"><span id = "Mrookie"> rookie </span></label></p>
-                  </div>
-               </div>
-               <h3>7. Brands you already love</h3>
-               <div id= "t1">
-                  <div class = "container">
-                     <div class = "row justify-content-md-center">
-                        <div class = "col-md-3">
-                           <p><input type="hidden" ><label for="Estée Lauder"><img id="Estée Lauder"src="profile_images/ELC.png" alt="Estée Lauder"></label></p>
-                           <p><input type="hidden" ><label for="La Mer"><img id="La Mersrc" src = "profile_images/La_Mer.png" alt="La Mer"></label></p>
-                           <p><input type="hidden" ><label for="Clinique"><img id="Clinique" src="profile_images/Clinique.jpg" alt="Clinique"></label></p>
-                           <p><input type="hidden" ><label for="Bobbi Brown"><img id="Bobbi Brown"src="profile_images/Bobbi.png" alt="Bobbi Brown"></label></p>
-                           <p><input type="hidden" ><label for="Smash box"><img id="Smash Box"src="profile_images/smash.png" alt="Smash Box"></label></p>
-                           <p><input type="hidden" ><label for="Bumble"><img id="Bumble"src="profile_images/Bumble.png" alt="Bumble and Bumble"></label></p>
-                        </div>
-                        <div class = "col-md-3">
-                           <p><input type="hidden" ><label for="Aveda"><img id="Aveda"src="profile_images/Aveda-logo.png" alt="Aveda"></label></p>
-                           <p><input type="hidden" ><label for="Glambow"><img id="Glamgow"src="profile_images/glamgow.png" alt="Glamgow"></label></p>
-                           <p><input type="hidden" ><label for="Mac"><img id="Mac"src="profile_images/mac.jpg" alt="Mac"></label></p>
-                           <p><input type="hidden" ><label for="Aevin"><img id="Aevin"src="profile_images/aerin.png" alt="Aerin"></label></p>
-                           <p><input type="hidden" ><label for="Becca"><img id="Becca"src="profile_images/becca.png" alt="Becca"></label></p>
-                        </div>
-                     </div>
-                  </div>
-               </div>
+             </div>
+           </div>
+
                <h3>8. Membership level </h3>
-               <div class = "container">
-                  <div class = "row justify-content-center">
-                     <div class = "col-md-3">
+                 <div class = "container">
+                    <div class = "row justify-content-center">
+                       <div class = "col-md-3">
                         <p><input type="hidden" ><label for="Prestige"><span id = "Prestige">Prestige</a></label></p>
-                     </div>
-                     <div class= "col-md-3">
+                      </div>
+                      <div class= "col-md-3">
                         <p><input type="hidden"><label for="Travel"><span id = "Luxe">Luxe</a></label></p>
-                     </div>
-                  </div>
-               </div>
-               <h3>9. Shipment Preference </h3>
-               <div class = "container">
-                  <div class = "row justify-content-center">
-                     <div class = "col-md-3">
+                      </div>
+                    </div>
+                    </div>
+              <h3>9. Shipment Preference </h3>
+                <div class = "container">
+                    <div class = "row justify-content-center">
+                       <div class = "col-md-3">
                         <p><input type="hidden" ><label for="Quartely"><span id = "Quarterly">Quarterly</a></label></p>
-                     </div>
-                     <div class= "col-md-3">
+                      </div>
+                      <div class= "col-md-3">
                         <p><input type="hidden" ><label for="Travel"><span id = "Travel">Travel</a></label></p>
-                     </div>
-                  </div>
+                      </div>
+                    </div>
+                    </div>
                </div>
             </div>
-        </form>
-        <button style = "  display: flex; justify-content: center;" onclick="location.href='elc_pfp.html'" type="button">
-                      Submit</button>
+      </form>
       </div>
+
       <script src="profile.js"></script>
+      <script src="vendor/jquery/jquery.min.js"></script>
    </body>
 </html>

@@ -1,4 +1,38 @@
-#heading { 
-    text-align: center; 
+.navbar {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
 }
 
+.item1 h5 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    /* margin-top: 20px; */
+    font-size: 15px;
+    margin-right: 40px;
+}
+
+.item2 h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.item3 h5 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    /* margin-top: 15px; */
+    font-size: 15px;
+    /* font-size: 20px; */
+}
+
+
+
+#landing_image { 
+    margin-top: 100px;
+}
+
+.about { 
+    margin: 40px;
+    text-align:  center; 
+}

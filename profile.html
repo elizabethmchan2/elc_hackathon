@@ -1,146 +1,196 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Build Your Profile</title>
-    <link href="css/signup.css" rel="stylesheet">
-
-        <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
-        <!-- Custom styles for this template -->
-    <link href="css/style.css" rel="stylesheet">
-
-    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i" rel="stylesheet">
-
-
-
-  </head>
-
-  <body>
-
+   <head>
+      <title>Build Your Profile</title>
+      <link href="css/signup.css" rel="stylesheet">
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <!-- Custom styles for this template -->
+      <link href="css/style.css" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i" rel="stylesheet">
+   </head>
+   <body>
       <div class="navbar">
-      <div class = "item1"> <h5> about </h5> </div>
-      <!-- <div class = "" -->
-      <div class = "item2"> <h1> ELC BEAUTY ATTACHÉ </h1> </div>
-      <div class = "item3"> <h5> sign in / sign up </h5> </div>
-    </div> 
-    
-    <div class="small_navbar">
-      <div class="itemA">
-        <h5> about </h5> 
+         <div class = "item1">
+            <h5> about </h5>
+         </div>
+         <!-- <div class = "" -->
+         <div class = "item2">
+            <h1> ELC BEAUTY ATTACHÉ </h1>
+         </div>
+         <div class = "item3">
+            <h5> sign in / sign up </h5>
+         </div>
       </div>
-      <div class="itemB">
-        <h5> bestsellers</h5>
+      <div class="small_navbar">
+         <div class="itemA">
+            <h5> about </h5>
+         </div>
+         <div class="itemB">
+            <h5> bestsellers</h5>
+         </div>
+         <div class="itemC">
+            <h5> testimonies </h5>
+         </div>
+         <div class="itemD">
+            <h5> contact </h5>
+         </div>
       </div>
-      <div class="itemC">
-        <h5> testimonies </h5>
-      </div>
-      <div class="itemD">
-        <h5> contact </h5>
-      </div>
-    </div>
-
-
-    <h1 id = "title"> Build Your Profile </h1>
-    <div id="types">
-        <form name="formName" action="what do we want the selection to do" method="POST">
-        <h3>1. Eye color</h3>
-        <div id = "hair">
-             <p><input type="checkbox" id="Brown"><label for="Brown">Brown</label></p>
-            <p><input type="checkbox" id="Hazel"><label for="Hazel">Hazel</label></p>
-            <p><input type="checkbox" id="Amber"><label for="Amber">Amber</label></p>
-          <p><input type="checkbox" id="Blue"><label for="Blue">Blue</label></p>
-          <p><input type="checkbox" id="Green"><label for="Green">Green</label></p>
-          <p><input type="checkbox" id="Grey"><label for="Grey">Grey</label></p>
+      <h1 id = "title"> Build Your Profile </h1>
+      <div id="types">
+      <form name="formName" action="what do we want the selection to do" method="POST">
+         <h3>1. Eye color</h3>
+         <div class = "container">
+            <div class = "row justify-content-center">
+               <div class = "col-md-3">
+                  <p><input type="hidden" id="Brown"><label for="Brown"> <span style = "background-color: #2b1d0e" class = "circle"></span></label></p>
+                  <p><input type="hidden" id="Hazel"><label for="Hazel"> <span style = "background-color: #cbce86" class = "circle"></span></label></p>
+                  <p><input type="hidden" id="Amber"><label for="Amber"> <span style = "background-color: #ffbf00" class = "circle"></span></label></p>
+               </div>
+               <div class = "col-md-3">
+                  <p><input type="hidden" id="Blue"><label for="Blue"> <span style = "background-color:#9ACD32" class = "circle"></span></label></p>
+                  <p><input type="hidden" id="Green"><label for="Green"> <span style = "background-color: #4A7023" class = "circle"></span></label></p>
+                  <p><input type="hidden" id="Grey"><label for="Grey"> <span style = "background-color:#D3D3D3" class = "circle"></span></label></p>
+               </div>
+         </div>
        </div>
-          <h3 id = "hair_title">2. Hair Type </h3>
-            <div id = "hair">
-              <p><input type="checkbox" id="curly"><label for="curly">Curly</label></p>
-              <p><input type="checkbox" id="wavy"><label for="wavy">Wavy</label></p>
-              <p><input type="checkbox" id="Straight"><label for="straight">Straight</label></p>
+         <h3 id = "hair_title">2. Hair Type </h3>
+         <div class = "container">
+           <div class = "row justify-content-center">
+              <div class = "col-md-3">
+                 <p><input type="checkbox" id="curly"><label for="curly">Curly</label></p>
+                 <p><input type="checkbox" id="wavy"><label for="wavy">Wavy</label></p>
+              </div>
+              <div class = "col-md-3">
+                 <p><input type="checkbox" id="Straight"><label for="straight">Straight</label></p>
            </div>
-
-           <h3>Concerns</h3>
-           <div id ="concerns">
-             <p><input type="checkbox" id="Frizziness"><label for="Frizziness">Frizziness</label></p>
-             <p><input type="checkbox" id="Volume"><label for="Volume">Volume</label></p>
-             <p><input type="checkbox" id="Greasy"><label for="Greasy">Greasy</label></p>
-             <p><input type="checkbox" id="Dry Scalp"><label for="Dry Scalp">Dry Scalp</label></p>
-             <p><input type="checkbox" id="Brittle Hair"><label for="Brittle Hair">Brittle Hair</label></p>
-             <p><input type="checkbox" id="Dyed"><label for="Dyed">Dyed</label></p>
-           </div>
-           <h3>3. Eye color</h3>
-        <div id = "hair">
-             <p><input type="checkbox" id="Brown"><label for="Brown">Brown</label></p>
-            <p><input type="checkbox" id="Hazel"><label for="Hazel">Hazel</label></p>
-            <p><input type="checkbox" id="Amber"><label for="Amber">Amber</label></p>
-          <p><input type="checkbox" id="Blue"><label for="Blue">Blue</label></p>
-          <p><input type="checkbox" id="Green"><label for="Green">Green</label></p>
-          <p><input type="checkbox" id="Grey"><label for="Grey">Grey</label></p>
+         </div>
        </div>
-          <h3>2. Skin Type</h3>
-          <div id = "hair">
+         <h3>3. Hair Color </h3>
+
+         <div class = "container">
+           <div class = "row justify-content-center">
+              <div class = "col-md-3">
+                 <p><input type="hidden" id="Black"><label for="Black"><span style= "background-color:#000000" class = "circle"></span></label></p>
+                 <p><input type="hidden" id="Dark Brown"><label for="Dark Brown"><span style = "background-color:#8B4513"  class = "circle"></span></label></p>
+                 <p><input type="hidden" id="Light Brown"><label for="Light Brown"><span style = "background-color:#CD853F" class = "circle"></span></label></p>
+                 <p><input type="hidden" id="Sandy Blonde"><label for="Sandy Blonde"><span style = "background-color: #D7BF91" class = "circle"></span></label></p>
+              </div>
+              <div class = "col-md-3">
+                 <p><input type="hidden" id="Blonde"><label for="Blonde"><span style = "background-color: #faf0be"class = "circle"></span></label></p>
+                 <p><input type="hidden" id="Red"><label for="Red"><span style = "background-color: #ff0000 " class = "circle"></span></label></p>
+                 <p><input type="hidden" id="Grey"><label for="Grey"><span style = "background-color: #A9A9A9" class = "circle"></span></label></p>
+                 <p><input type="hidden" id="White"><label for="White"><span style = "background-color: #D3D3D3" class = "circle"></span></label></p>
+              </div>
+           </div>
+         </div>
+
+         <h3> Hair Concerns</h3>
+
+         <div class = "container">
+         <div class = "row justify-content-center">
+            <div class = "col-md-3">
+               <p><input type="checkbox" id="Frizziness"><label for="Frizziness">Frizziness</label></p>
+               <p><input type="checkbox" id="Volume"><label for="Volume">Volume</label></p>
+               <p><input type="checkbox" id="Greasy"><label for="Greasy">Greasy</label></p>
+            </div>
+            <div class = "col-md-3">
+               <p><input type="checkbox" id="Dry Scalp"><label for="Dry Scalp">Dry Scalp</label></p>
+               <p><input type="checkbox" id="Brittle Hair"><label for="Brittle Hair">Brittle Hair</label></p>
+               <p><input type="checkbox" id="Dyed"><label for="Dyed">Dyed</label></p>
+            </div>
+         </div>
+       </div>
+         <h3>4. Skin Type</h3>
+         <div class = "container">
+            <div class = "row justify-content-center">
+               <div class = "col-md-3">
+                  <p><input type="checkbox" id="Oily"><label for="Oily">Oily</label></p>
+                  <p><input type="checkbox" id="Dry"><label for="Dry">Dry</label></p>
+               </div>
+               <div class = "col-md-3">
+                  <p><input type="checkbox" id="Combination"><label for="Combination">Combination</label></p>
+                  <p><input type="checkbox" id="Normal"><label for="Normal">Normal</label></p>
+               </div>
+            </div>
+         </div>
+         <h3>Skin Concerns</h3>
+         <div class = "container">
+         <div class = "row justify-content-center">
+            <div class = "col-md-3">
+               <p><input type="checkbox" id="Acne"><label for="Acne">Acne</label></p>
+               <p><input type="checkbox" id="Dullness"><label for="Dullness">Dullness</label></p>
+               <p><input type="checkbox" id="Dark spots"><label for="Dark Spots">Dark Spots</label></p>
+               <p><input type="checkbox" id="Dryness"><label for="Dryness">Dryness</label></p>
+            </div>
+            <div class = "col-md-3">
+               <p><input type="checkbox" id="Hyper-pigmentation"><label for="Hyper-pigmentation">Hyper-pigmentation</label></p>
+               <p><input type="checkbox" id="Wrinkles"><label for="Wrinkles">Wrinkles</label></p>
                <p><input type="checkbox" id="Oily"><label for="Oily">Oily</label></p>
-              <p><input type="checkbox" id="Dry"><label for="Dry">Dry</label></p>
-            <p><input type="checkbox" id="Combination"><label for="Combination">Combination</label></p>
-            <p><input type="checkbox" id="Normal"><label for="Normal">Normal</label></p>
-          </div>
-         <h3>Concerns</h3>
-         <div id= "concerns">
-              <p><input type="checkbox" id="Acne"><label for="Acne">Acne</label></p>
-             <p><input type="checkbox" id="Dullness"><label for="Dullness">Dullness</label></p>
-             <p><input type="checkbox" id="Dark spots"><label for="Dark Spots">Dark Spots</label></p>
-             <p><input type="checkbox" id="Dryness"><label for="Dryness">Dryness</label></p>
-           <p><input type="checkbox" id="Hyper-pigmentation"><label for="Hyper-pigmentation">Hyper-pigmentation</label></p>
-           <p><input type="checkbox" id="Wrinkles"><label for="Wrinkles">Wrinkles</label></p>
-           <p><input type="checkbox" id="Oily"><label for="Oily">Oily</label></p>
-        </div>
-        
-       <h3>4. Hair Color </h3>
-       <div id= "concerns">
-            <p><input type="checkbox" id="Black"><label for="Black">Black</label></p>
-           <p><input type="checkbox" id="Dark Brown"><label for="Dark Brown">Dark Brown</label></p>
-           <p><input type="checkbox" id="Light Brown"><label for="Light Brown">Light Brown</label></p>
-           <p><input type="checkbox" id="Sandy Blonde"><label for="Sandy Blonde">Sandy Blonde</label></p>
-         <p><input type="checkbox" id="Blonde"><label for="Blonde">Blonde</label></p>
-         <p><input type="checkbox" id="Red"><label for="Red">Red</label></p>
-         <p><input type="checkbox" id="Grey"><label for="Grey">Grey</label></p>
-         <p><input type="checkbox" id="White"><label for="White">White</label></p>
+            </div>
+         </div>
+       </div>
+         <h3>5. How comfortable are you with skincare?</h3>
+         <div class = "container">
+         <div class = "row justify-content-center">
+            <div class = "col-md-3">
+               <p><input type="checkbox" id="Very"><label for="Very">Very</label></p>
+               <p><input type="checkbox" id="Somewhat"><label for="Somewhat">Somewhat</label></p>
+            </div>
+            <div class = "col-md-3">
+               <p><input type="checkbox" id="Rookie"><label for="Rookie">Rookie</label></p>
+            </div>
+         </div>
+       </div>
+         <h3>6. How comfortable are you with makeup?</h3>
+         <div class = "container">
+         <div class = "row justify-content-center">
+            <div class = "col-md-3">
+               <p><input type="checkbox" id="Very"><label for="Very">Very</label></p>
+               <p><input type="checkbox" id="Somewhat"><label for="Somewhat">Somewhat</label></p>
+            </div>
+            <div class = "col-md-3">
+               <p><input type="checkbox" id="Rookie"><label for="Rookie">Rookie</label></p>
+            </div>
+         </div>
+       </div>
+         <h3>7. Brands you already love</h3>
+         <div id= "t1">
+            <div class = "container">
+               <div class = "row justify-content-md-center">
+                  <div class = "col-md-3">
+                     <p><input type="checkbox" id="Estée Lauder"><label for="Estée Lauder"><img src="profile_images/ELC.png" alt="Estée Lauder"></label></p>
+                     <p><input type="checkbox" id="La Mer"><label for="La Mer"><img src="profile_images/La_Mer.png" alt="La Mer"></label></p>
+                     <p><input type="checkbox" id="Clinique"><label for="Clinique"><img src="profile_images/Clinique.jpg" alt="Clinique"></label></p>
+                     <p><input type="checkbox" id="Bobbi Brown"><label for="Bobbi Brown"><img src="profile_images/Bobbi.png" alt="Bobbi Brown"></label></p>
+                     <p><input type="checkbox" id="Smash Box"><label for="Smash box"><img src="profile_images/smash.png" alt="Smash Box"></label></p>
+                     <p><input type="checkbox" id="Bumble"><label for="Bumble"><img src="profile_images/Bumble.png" alt="Bumble and Bumble"></label></p>
+                  </div>
+                  <div class = "col-md-3">
+                     <p><input type="checkbox" id="Aveda"><label for="Aveda"><img src="profile_images/Aveda-logo.png" alt="Aveda"></label></p>
+                     <p><input type="checkbox" id="Glamgow"><label for="Glambow"><img src="profile_images/glamgow.png" alt="Glamgow"></label></p>
+                     <p><input type="checkbox" id="Mac"><label for="Mac"><img src="profile_images/mac.jpg" alt="Mac"></label></p>
+                     <p><input type="checkbox" id="Aevin"><label for="Aevin"><img src="profile_images/aerin.png" alt="Aerin"></label></p>
+                     <p><input type="checkbox" id="Becca"><label for="Becca"><img src="profile_images/becca.png" alt="Becca"></label></p>
+                  </div>
+               </div>
+             </div>
+           </div>
 
+               <h3>8. Membership level </h3>
+                 <div class = "container">
+                    <div class = "row justify-content-center">
+                       <div class = "col-md-3">
+                        <p><input type="checkbox" id="Quarterly"><label for="Quarterly">Quarterly</label></p>
+                      </div>
+                      <div class= "col-md-3">
+                        <p><input type="checkbox" id="Travel"><label for="Travel">Travel Luxe</label></p>
+                      </div>
+                    </div>
+                    </div>
+               </div>
+            </div>
+      </form>
       </div>
-      <h3>5. How comfortable are you with skincare?</h3>
-      <div id= "hair">
-           <p><input type="checkbox" id="Very"><label for="Very">Very</label></p>
-          <p><input type="checkbox" id="Somewhat"><label for="Somewhat">Somewhat</label></p>
-          <p><input type="checkbox" id="Rookie"><label for="Rookie">Rookie</label></p>
-     </div>
-     </div>
-     <h3>6. How comfortable are you with makeup?</h3>
-     <div id= "hair">
-          <p><input type="checkbox" id="Very"><label for="Very">Very</label></p>
-         <p><input type="checkbox" id="Somewhat"><label for="Somewhat">Somewhat</label></p>
-         <p><input type="checkbox" id="Rookie"><label for="Rookie">Rookie</label></p>
-    </div>
-     <h3>7. Brands you already love</h3>
-     <div id= "concerns">
-          <p><input type="checkbox" id="Estee Lauder"><label for="Estee Lauder">Estee Lauder</label></p>
-         <p><input type="checkbox" id="La Mer"><label for="La Mer">La Mer</label></p>
-         <p><input type="checkbox" id="Clinque"><label for="Clinque">Clinque</label></p>
-         <p><input type="checkbox" id="Bobbi Brown"><label for="Bobbi Brown">Bobbi Brown</label></p>
-       <p><input type="checkbox" id="Smash Box"><label for="Smash box">Smash Box</label></p>
-       <p><input type="checkbox" id="Bumble"><label for="Bumble">Bumble</label></p>
-       <p><input type="checkbox" id="Aveda"><label for="Aveda">Aveda</label></p>
-        <p><input type="checkbox" id="Glamgow"><label for="Glambow">Glamgow</label></p>
-         <p><input type="checkbox" id="Mac"><label for="Mac">Mac</label></p>
-          <p><input type="checkbox" id="Aevin"><label for="Aevin">Aevin</label></p>
-           <p><input type="checkbox" id="Becca"><label for="Becca">Becca</label></p>
-    </div>
-   <h3>8. Membership level </h3>
-   <div id= "hair">
-        <p><input type="checkbox" id="Quarterly"><label for="Quarterly">Quarterly</label></p>
-       <p><input type="checkbox" id="Travel"><label for="Travel">Travel(4 times/year, delivered whenever requested)</label></p>
-  </div>
-     </form>
-    </div>
-  </body>
+   </body>
 </html>

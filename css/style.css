@@ -4,35 +4,73 @@
     justify-content: space-between;
 }
 
+
 .item1 h5 {
     font-family: 'Playfair Display', serif;
     font-weight: 400;
     /* margin-top: 20px; */
     font-size: 15px;
-    margin-right: 40px;
+    margin-left: 80px;
+}
+
+.item1 :hover, .item3 :hover { 
+    color: blue;
+    cursor: pointer;
 }
 
 .item2 h1 {
     font-family: 'Playfair Display', serif;
     font-weight: 400;
     font-size: 40px;
+    margin-left: 65px;
+
 }
 
 .item3 h5 {
     font-family: 'Playfair Display', serif;
     font-weight: 400;
-    /* margin-top: 15px; */
     font-size: 15px;
-    /* font-size: 20px; */
+    margin-right: 80px;
 }
 
+
+.welcome {
+    margin-top: 25px;
+    text-align: center;
+    font-family: 'Playfair Display',
+        serif;
+}
 
 
 #landing_image { 
-    margin-top: 100px;
+    margin-top: 40px;
+    margin-bottom: 60px;
 }
 
 .about { 
-    margin: 40px;
-    text-align:  center; 
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.about h1 { 
+
+    text-align:  left; 
+    font-family: 'Playfair Display',
+        serif;
+    font-weight: bold;
+    font-style: 900i;
+    font-size: 30px;
+
+}
+
+.about p{ 
+    /* text-align: center; */
+    font-family: 'Playfair Display',
+        serif;
+}
+
+
+.steps img { 
+    max-width: 250px;
+    max-height: 250px;
+
 }

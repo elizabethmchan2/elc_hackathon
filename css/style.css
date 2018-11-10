@@ -13,7 +13,7 @@
 .item1 h5 {
     font-family: 'Playfair Display', serif;
     font-weight: 400;
-    /* margin-top: 20px; */
+    margin-top: 20px;
     font-size: 15px;
     margin-left: 80px;
 }
@@ -188,16 +188,14 @@
 
 .info { 
     position: relative;
-    display: block;
-    margin-top: auto;
-    margin-bottom: auto;
 
 }
 
 .info > img { 
     position: absolute;
-    top: 4px;
-    right: 30%;
+    bottom: 50px;
+    left: 10px;
+    max-width: 100px;
 }
 
 
@@ -206,6 +204,11 @@
     font-family: 'Playfair Display',
     serif;
     font-weight: 700;
+    top: 50%;
+        /* display: block;
+        margin-top: auto;
+        margin-bottom: auto; */
+
 
 }
 

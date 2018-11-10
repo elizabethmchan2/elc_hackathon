@@ -7,8 +7,13 @@
     display: flex;
     width: 100%;
     justify-content: space-between;
+
 }
 
+.item3 h5 span {
+    text-decoration: none;
+    color: black;
+}
 
 .item1 h5 {
     font-family: 'Playfair Display', serif;
@@ -18,10 +23,7 @@
     margin-left: 80px;
 }
 
-.item1 :hover, .item3 :hover { 
-    color: #6DD3C2;
-    cursor: pointer;
-}
+
 
 .item2 h1 {
     font-family: 'Playfair Display', serif;
@@ -36,6 +38,18 @@
     font-weight: 400;
     font-size: 15px;
     margin-right: 95px;
+}
+
+#signin, #signup, #home { 
+    text-decoration: none;
+    color: black;
+
+}
+#signin:hover,
+#signup:hover,
+#home:hover {
+    color: #6DD3C2;
+    cursor: pointer;
 }
 
 
@@ -139,9 +153,13 @@
 /* about page */
 
 .about { 
-    margin-top: 20px;
+    /* margin-top: 20px;
     margin-left: 300px;
-    margin-right: 300px;
+    margin-right: 300px; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 .about h1 { 
 
@@ -164,10 +182,8 @@
 
 /* check in walkthrough */
 
-.steps img { 
-    max-width: 250px;
-    max-height: 250px;
-
+.check_in img { 
+    height: 100vh;
 }
 
 
@@ -185,7 +201,7 @@
 }
 
 
-
+/* 
 .info { 
     position: relative;
 
@@ -216,6 +232,6 @@
     font-family: 'Playfair Display',
     serif;
     font-weight: 400;
-}
+} */
 
 

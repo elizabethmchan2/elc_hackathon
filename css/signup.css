@@ -1,6 +1,10 @@
 /* .class
 #id */
 
+/* #types p { 
+  cursor: pointer;
+} */
+
 
 #title {
   /* color: blue; */
@@ -101,7 +105,11 @@ font-size: 15px;
 }
 .item {
   flex-grow: <number>; /* default 0 */
+<<<<<<< HEAD
 
+=======
+/* } */
+>>>>>>> 37e1e0221c4f20200d6014078887b659ce3b4792
 /* .signup {
   text-align: center;
 } */
